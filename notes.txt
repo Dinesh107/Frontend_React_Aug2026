@@ -1,0 +1,39 @@
+HTML - Hyper text markup language 
+
+Attributes
+Tags
+
+<> --> open tag
+
+</> --> closing tag or self closing tag
+
+
+<html>  ----> root html tag or entry point 
+
+    <head>
+
+    </head>
+
+        <body>
+
+           <header>
+        
+           </header>
+
+            <footer>
+            
+            </footer>
+
+        </body>    
+</html>
+
+
+
+Hyperlinks - 
+
+<a/> 
+
+
+Text Formatting
+
+
