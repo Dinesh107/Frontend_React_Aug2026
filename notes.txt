@@ -37,3 +37,29 @@ Hyperlinks -
 Text Formatting
 
 
+
+
+Devloper branch -
+                   search module
+                   footer module
+
+, unit_testing_branch
+
+Testing Branch, UAT branch 
+
+Production Branch -  Main branch
+
+
+
+Group together elements
+
+span and div
+
+
+span - <span></span> inline container to group the elements for styling 
+
+div - <div></div> - block level container to group the elements for styling purposes
+
+
+
+
