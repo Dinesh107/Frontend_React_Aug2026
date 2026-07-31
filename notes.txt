@@ -60,6 +60,19 @@ span - <span></span> inline container to group the elements for styling
 
 div - <div></div> - block level container to group the elements for styling purposes
 
+CSS - Cascading Style sheet 
+
+types of css 
+
+Inline css, Internal css, External css 
+
+color : 
+
+named color
+rgb 
+hexa decimal values
+hsl values
+
 
 
 

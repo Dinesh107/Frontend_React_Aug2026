@@ -4,6 +4,12 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Frontend - july26</title>
+    <style>
+      /* body {
+        background-color: lawngreen;
+      } */
+    </style>
+    <link rel="stylesheet" href="style.css">
   </head>
   <body>
     <!-- <h1>This is H1 heading</h1> 
@@ -139,9 +145,9 @@
            function clickMe() {
                 document.getElementById("greeting").innerHTML = "Good bye ganesh"
            }
-       </script>   -->
+       </script>   
 
-    <form action="customer.cpp" method="POST">
+    <form action="customer.cpp" method="POST" enctype="multipart/form-data">
       <label for="username">Username: </label>
       <input
         type="text"
@@ -188,8 +194,70 @@
       <label for="title">Dr:</label>
       <input type="radio" id="Dr:" value="Dr:"  name="title">
        <br /><br />
+
+      <label for="payment">Payment</label>
+      <select name="" id="payment">
+        <option value="visa">Visa</option>
+        <option value="mastercard">MasterCard</option>
+        <option value="rupay">Rupay</option>
+      </select>
+      <br><br>
+
+      <label for="subscribe">Subscribe</label>
+      <input type="checkbox" id="subscribe"> 
+      <br><br>
+
+      <label for="comment">Commnet</label>
+      <textarea name="" id="" rows="10" cols="20"></textarea>
+       <br><br>
+    
+       <label for="file">File submission</label>
+       <input type="file" id="file" accept="">
+
+       <br><br> 
+
+              
+  
+
       <input type="submit" />
       <input type="reset" />
-    </form>
+    </form> 
+
+
+       <header  style="background-color: lightcoral;">
+            <h1>Besant Technology - React Class</h1>
+            <a href="">Home</a>
+            <a href="">About us</a>
+            <a href="">Courses</a>
+            <a href="">Contact-us</a>
+       </header>
+
+       <main>
+            <h4>Courses we offer</h4>
+            <img src="/Images/salad.jpg" alt="" width="100">
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cum necessitatibus ratione earum, aut consectetur, officia culpa eius aspernatur facilis, labore aliquam delectus voluptate accusamus architecto? Quam perspiciatis unde modi atque.</p>
+       </main>
+
+      <footer style="background-color: lightcoral;">
+            <hr>
+             
+            author: DineshDev <br>
+            &copy: Copyright reserved <br>
+            <a href="mailto:dineshjr107@gmail.com">dineshjr107@gmail.com</a>
+            
+       </footer> -->
+
+
+       <h1 id="h1">This is our Website</h1>
+  
+      <p id="p1" class="odd">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit atque, iste excepturi doloremque architecto cumque repellendus magni ducimus velit, consectetur, porro numquam reiciendis dignissimos debitis harum? Placeat dignissimos quae at!</p>
+      <p id="p2" class="even">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit atque, iste excepturi doloremque architecto cumque repellendus magni ducimus velit, consectetur, porro numquam reiciendis dignissimos debitis harum? Placeat dignissimos quae at!</p>
+      <p id="p3" class="odd">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit atque, iste excepturi doloremque architecto cumque repellendus magni ducimus velit, consectetur, porro numquam reiciendis dignissimos debitis harum? Placeat dignissimos quae at!</p>
+      <p id="p4" class="even">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit atque, iste excepturi doloremque architecto cumque repellendus magni ducimus velit, consectetur, porro numquam reiciendis dignissimos debitis harum? Placeat dignissimos quae at!</p>
+
+
+
+
+
   </body>
 </html>
