@@ -73,6 +73,15 @@ rgb
 hexa decimal values
 hsl values
 
+fonts
+
+borders
+
+shadows
+
+margins 
+
+float 
 
 
 
