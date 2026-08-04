@@ -107,7 +107,7 @@ color: violet;
  #box2 {
    background-color: blueviolet;
 
- } */
+ } 
 
 body {
    border: 3px solid;
@@ -116,11 +116,73 @@ body {
 
  #img1 {
    float: left;
-   /* float: right; */
+   /* float: right; 
    margin-right: 10px;
  }
  #img2 {
    float: right;
-   /* float: right; */
+    float: right; 
    margin-left: 10px;
- }
+ } 
+
+
+ #div1 {
+  border: 2px solid;
+  height: 70px;
+  /* overflow: visible; */
+  /* overflow: hidden; */
+  /* overflow: clip;
+  overflow-clip-margin: 18px; */
+  /* overflow: scroll; 
+  overflow: auto;
+ } satrt on a new line take up the full width avaialable 
+
+
+#div1 {
+  background-color: red;
+  width: 100px;
+  height: 100px;
+  /* display: inline-block;
+  display: block;
+  display: inline; */
+  /* display: none; 
+  display: inline-block;
+  visibility: hidden; 
+
+}
+
+#span1 {
+  background-color: blue;
+  width: 100px;
+  height: 100px;
+  /* display: none; 
+  display: inline-block;
+  visibility: hidden;
+
+}
+
+* {
+  box-sizing: border-box;
+}
+
+
+.container {
+   background-color: lightgreen;
+   height: 100vh;
+}
+
+.box {
+  background-color: aliceblue;
+  border: 2px solid;
+  padding: 25px;
+  height: auto;
+  width: 50%;
+  float: left;
+  text-align: center;
+
+  min-height: 50%;
+
+} */
+
+
+

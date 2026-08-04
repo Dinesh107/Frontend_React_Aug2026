@@ -84,4 +84,28 @@ margins
 float 
 
 
+overflow - poperty that  sets the desired behavior when content does not fit in the parent element box(overflows)
+
+overflow: visible
+overflow: hidden
+overflow: clip
+overflow: scroll
+overflow: auto
+
+
+
+display property - property specifes if/how an element is displayed 
+
+
+block-level - satrt on a new line take up the full width avaialable (g1, div, p, form, header, footer)
+
+inline - do not start on a new line (span, a, img)
+
+
+height and width 
+
+
+
+
+
 
