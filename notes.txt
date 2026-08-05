@@ -105,6 +105,26 @@ inline - do not start on a new line (span, a, img)
 height and width 
 
 
+Postions: 
+
+        relative - postioned relative to where it normallyu
+        fixed - postioned relative to the viewport
+        absolute - postionedrelative to nearest ancestor
+        sticky - postioned based on scroll postion
+        static - default postion for an element 
+
+Comibinators - explain the relationship between listed selectors 
+      = descecdent
+    > = child
+    ~ = general sibling
+    + = adjacent sibling
+
+
+    selector > slector
+    div > p  
+    
+
+
 
 
 
