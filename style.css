@@ -249,7 +249,7 @@ body {
   left: 15px;
   
 
-} */
+} 
 
 #container {
   border: 2px solid;
@@ -261,11 +261,187 @@ body {
 
 #container > p {
   background-color: greenyellow;
-}    */
+}   
 
 #container > div{
   background-color: yellow;
+}    
+
+
+#link1:link{
+  color: red;
+}
+
+#link1:hover {
+  color: lightcoral;
+  font-size: 1.1em;
+}
+
+#link1:visited {
+  color: green;
+} 
+
+
+li:hover {
+  background-color: green;
+}
+li:not(:hover) {
+  background-color: gray;
+} 
+
+li:nth-child(2n+1) {
+    background-color: red;
+}
+
+#greeting p {
+  background-color: green;
+  padding: 10px;
+  display: none;
+}
+
+
+#greeting:hover p {
+  display: block;
+
+} 
+
+
+
+h1::first-letter {
+  font-size: 2em;
+  font-style: italic;
+}
+
+p::first-line {
+  background-color: lightcoral;
+}
+
+p::selection {
+  color: antiquewhite;
+  background-color: green;
+}
+
+#fruit li::before {
+  content: "✔️";
+
+}
+
+
+#apple::after {
+  content: "🍎";
+}
+#orange::after {
+  content: "🍊";
+}
+#banana::after {
+  content: "🍌";
+}
+
+#fruit li::marker {
+  content: none;
+  font-size: 1.1em;
 }  
+
+
+.dropdown {
+  display: inline-block;
+}
+
+.dropdown button {
+  background-color: rgb(193, 191, 191);
+  color: white;
+  padding: 10px 10px;
+  cursor: pointer;
+}
+
+.dropdown a{
+  display: block;
+  color: black;
+  text-decoration: none;
+  padding: 10px 15px;
+}
+
+.dropdown .content {
+  display: none;
+  position: absolute;
+  background-color: lightblue;
+  box-shadow: 2px 2px 5px lightslategray;
+}
+
+.dropdown:hover .content {
+  display: block;
+}
+
+.dropdown:hover button {
+  background-color: lightgray;
+}
+
+.dropdown a:hover {
+  background-color: darkcyan;
+} 
+
+.container {
+  display: flex;
+  /* flex-direction: row; */
+  /* flex-direction: row-reverse; */
+  /* flex-direction: column; */
+  /* flex-direction: column-reverse; */
+  /* justify-content: flex-start; */
+  /* justify-content: flex-end; */
+  /* justify-content: center; */
+  /* justify-content: space-between; */
+  /* justify-content: space-evenly; */
+  /* border: 10px solid;
+  height: 90vh; */
+  /* align-items: flex-end; */
+  /* align-items: center; */
+  /* flex-wrap: wrap; */
+  /* flex-wrap: nowrap; */
+  /* flex-wrap: wrap-reverse; */
+  /* flex-wrap: wrap;
+  align-content: flex-start; */
+  /* align-content: flex-end; */
+  /* align-content: center; */
+  /* align-content: space-evenly; */
+  /* align-content: space-around; */
+
+    /* column-gap: 1em;
+    row-gap: 1em; */
+
+
+/* }
+
+.box {
+  width: 150px;
+  height: 150px;
+  font-size: 7em;
+  text-align: center;
+  border-radius: 5px;
+
+}
+
+
+#box1 {
+  background-color: lightcoral;
+  align-self: center;
+  /* order: -1; 
+}
+
+#box2 {
+  background-color: lightblue;
+  
+}
+
+#box3 {
+  background-color: lightgreen;
+}
+
+
+#box4 {
+  background-color: lightpink;
+}  */
+
+
 
 
 

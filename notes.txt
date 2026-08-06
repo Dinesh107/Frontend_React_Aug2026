@@ -124,6 +124,17 @@ Comibinators - explain the relationship between listed selectors
     div > p  
     
 
+Pesudo Classes - keywords which is going to add in the elements to change the behavioir of the element 
+
+
+Pesudo elements
+
+selector::pesudo-element 
+
+Dropdown
+
+flexbox 
+
 
 
 
