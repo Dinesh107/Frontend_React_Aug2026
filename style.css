@@ -443,6 +443,88 @@ p::selection {
 
 
 
+body {
+  background-color: black;
+}
+
+#box {
+  width: 250px;
+  height: 250px;
+  background-color: lightcoral;
+  font-size: 13em;
+  text-align: center;
+  /* animation-name: slideLeft; */
+  /* animation-name: slideRight; */
+  /* animation-name: slideUp; */
+  /* animation-name: slideDown; */
+/* animation-name: rotate; */
+/* animation-name: grow; */
+  /* animation-name: shrink; */
+  /* animation-name: fade; */
+  /* animation-name: colorChange; */
+   animation-name: slideLeft;
+  animation-duration: 2s;
+  /* animation-iteration-count: 2; */
+  animation-iteration-count: infinite;
+  /* animation-direction: reverse; */
+  animation-direction: normal;
+  /* animation-play-state: running; */
+  animation-play-state: pause;
+  /* animation-timing-function: steps(10); */
+  animation-timing-function: ease-in-out;
+  
+}
+#box:hover{
+ 
+}
+
+
+@keyframes slideLeft {
+  from{transform: translateX(300%);}
+}
+@keyframes slideRight {
+  to{transform: translateX(300%);}
+}
+@keyframes slideUp {
+  from{transform: translateY(300%);}
+}
+@keyframes slideDown {
+  to{transform: translateY(300%);}
+}
+@keyframes rotate {
+  /* 100%{transform: rotateX(360deg)} */
+  /* 50%{transform: rotateY(360deg)} */
+  /* 25%{transform: rotateZ(360deg)} */
+}
+@keyframes grow {
+  /* 100%{transform: scale(2, 2)} */
+  /* 50%{transform: scale(2, 2)} */
+ 
+}
+@keyframes shrink {
+  /* 100%{transform: scale(2, 2)} */
+  50%{transform: scale(0.5, 0.5)}
+ 
+}
+@keyframes fade {
+  /* 100%{transform: scale(2, 2)} */
+  /* 50%{transform: scale(0.5, 0.5)} */
+     /* 100%{opacity: 0;} */
+     50%{opacity: 0;}
+}
+@keyframes colorChange {
+   0%{background-color: lightcyan;}
+   20%{background-color: lightgreen;}
+   40%{background-color: lightseagreen;}
+   60%{background-color: lightsalmon;}
+   80%{background-color: palegoldenrod;}
+   100%{background-color: brown;}
+}
+@keyframes glow {
+ 50%{box-shadow: 0px 0px 50px red;}
+}
+
+
 
 
 
