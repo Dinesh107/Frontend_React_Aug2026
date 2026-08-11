@@ -137,6 +137,61 @@ flexbox
 
 
 
+____________________________________
+
+
+Naming convention - Pascal and Camel
+
+Pascal rule - Class, Constructors
+
+- every word 1st letter must be capital
+
+Scientific_Calculator
+
+Camel rule - Varaibles, methods or functions, object 
+
+- except 1s word remmaining words 1st letter must be in capital, and 1st word 1st letter must be in small
+
+
+emp_Id, created_At, user_Auth_Id, deleted_At
+
+
+Javascript  
+
+Variables - a container that store a value 
+
+behaves as if it were the value it contains
+
+datatype - primitive and non primitive 
+
+
+
+declaration 
+
+let x; 
+
+assignment  
+
+x = 100;
+
+let x = 101; 
+
+arthimtetic operations 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
