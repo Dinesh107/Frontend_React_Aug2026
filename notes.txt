@@ -205,6 +205,24 @@ type conversion - change the datatype of a value to another (number, strings, bo
 
 const = a varaiable that cant be changed 
 
+Math - built-in class object that prvides collections of properties and methods
+
+
+
+Conditional statements 
+
+if statements - if a condition is true, exute some code , if not do something
+
+else if
+
+nested if 
+
+ladder if statements 
+
+
+.checked - property that detemines the checked state of an HTML checkbox or radio element
+
+
 
 
 

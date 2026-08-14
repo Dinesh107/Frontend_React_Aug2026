@@ -4,7 +4,6 @@
 // console.writeLine();
 // print("", 1, true or false, 0.4, '')
 
-
 // console.log("Welcome to javascript world");
 // console.log("I lkie js");
 
@@ -14,7 +13,6 @@
 // document.getElementById("myH1").textContent = "Welcome to javascript";
 
 // document.getElementById("myP").textContent = "i like js";
-
 
 // let firstName = "Ganesh";
 // let favNum1 = 10.7;
@@ -37,10 +35,9 @@
 // empCount = empCount ** 2;
 // empCount = empCount % 2;
 
-
 // let extraEmployee = empCount  % 3;
 
-// agumeneted assigment operator 
+// agumeneted assigment operator
 // empCount += 1;
 // empCount -= 1;
 // empCount *= 1;
@@ -55,7 +52,6 @@
 // empCount--;
 
 // console.log(empCount);
-
 
 // let result = 1 + 2 * 3 + 4 ** 2;
 
@@ -76,9 +72,6 @@
 
 // console.log(result);
 
-
-
-
 // let username;
 
 // username = window.prompt("what is your username? ");
@@ -91,8 +84,6 @@
 //      username = document.getElementById("myH1").textContent = `Welcome ${username}`;
 //      console.log(username);
 // }
-
-
 
 // let username = "siva";
 
@@ -129,7 +120,6 @@
 // console.log(y, typeof y);
 // console.log(z, typeof z);
 
-
 // const PI = 3.14159;
 // let radius;
 // let circumference;
@@ -140,4 +130,71 @@
 
 // console.log(circumference);
 
+// let x = 3.21;
+// let x = 3.99;
+// let x = 3;
+// let y = 2;
+// let z = 1;
+// z = Math.round(x);
+// z = Math.floor(x); // roubd down
+// z = Math.ceil(x); round up
+// z = Math.trunc(x);
+// z = Math.pow(y, x);
+// z = Math.sqrt(x);
+// z = Math.abs(x);
+// let max = Math.max(x, y, z);
+// let min = Math.min(x, y, z);
+// console.log(min);
 
+// let isStudent = true;
+
+// if(isStudent) {
+//     console.log("You are a student");
+// } else {
+//      console.log("You are a not student");
+// }
+
+// let age = 10;
+// let hasLicense = false;
+
+// if(age >= 18) {
+//    console.log("You are old enough to drive");
+
+//    if(hasLicense) {
+//       console.log("you have your lisence");
+//    } else {
+//     console.log("you do not have lisense yet");
+//    }
+
+// } else {
+//      console.log("You must be 18+ to have alisense");
+// }
+
+// let age = -1;
+// // false
+// if(age >= 110) {
+//     console.log("you are too old to vote");
+//     // false
+// } else if(age >= 18) {
+//     console.log("you are old enough to vote");
+// } else if(age < 0) {
+//      console.log("your age cant be 0");
+// } else {
+//     console.log("you must ve 18+ to vote");
+// }
+
+let myCheckbox = document.getElementById("myCheckbox");
+let visaBtn = document.getElementById("visaBtn");
+let mastercardBtn = document.getElementById("mastercardBtn");
+let rupayBtn = document.getElementById("rupayBtn");
+let mySubmit = document.getElementById("mySubmit");
+let subResult = document.getElementById("subResult");
+let paymentResult = document.getElementById("paymentResult");
+
+mySubmit.onclick = function () {
+  if (myCheckbox.checked) {
+    subResult.textContent = `you are subscribed!!!`;
+  } else {
+    subResult.textContent = `you are not subscribed!!!`;
+  } 
+};
