@@ -222,6 +222,13 @@ ladder if statements
 
 .checked - property that detemines the checked state of an HTML checkbox or radio element
 
+ternary opertor - shortcut to if() and else() statements hepls to assign a Variable based on a condition 
+
+condition ? codeIfTrue : codeIfFalse;
+
+
+
+
 
 
 

@@ -183,18 +183,44 @@
 //     console.log("you must ve 18+ to vote");
 // }
 
-let myCheckbox = document.getElementById("myCheckbox");
-let visaBtn = document.getElementById("visaBtn");
-let mastercardBtn = document.getElementById("mastercardBtn");
-let rupayBtn = document.getElementById("rupayBtn");
-let mySubmit = document.getElementById("mySubmit");
-let subResult = document.getElementById("subResult");
-let paymentResult = document.getElementById("paymentResult");
+// let myCheckbox = document.getElementById("myCheckbox");
+// let visaBtn = document.getElementById("visaBtn");
+// let mastercardBtn = document.getElementById("mastercardBtn");
+// let rupayBtn = document.getElementById("rupayBtn");
+// let mySubmit = document.getElementById("mySubmit");
+// let subResult = document.getElementByI
+// d("subResult");
+// let paymentResult = document.getElementById("paymentResult");
 
-mySubmit.onclick = function () {
-  if (myCheckbox.checked) {
-    subResult.textContent = `you are subscribed!!!`;
-  } else {
-    subResult.textContent = `you are not subscribed!!!`;
-  } 
-};
+// mySubmit.onclick = function () {
+//   if (myCheckbox.checked) {
+//     subResult.textContent = `you are subscribed!!!`;
+//   } else {
+//     subResult.textContent = `you are not subscribed!!!`;
+//   } 
+// };
+
+
+// let age = 10;
+// let message = age >= 18 ? `you are an adult` : `you are a minor`;
+
+// console.log(message);
+
+
+// let time = 10;
+// let greeting = time < 12 ? "good morning" : "good afternoon";
+// console.log(greeting);
+
+
+// isStudent = false;
+// let message = isStudent ? "you are a student" : "you are not a student";
+// console.log(message);
+
+
+// let purchaseAmount = 100;
+// let discount = purchaseAmount >= 100 ? 10 : 0 ;
+// console.log(`your total is ₹${purchaseAmount - purchaseAmount * (discount/100)}`);
+
+
+
+
