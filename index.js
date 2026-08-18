@@ -197,30 +197,168 @@
 //     subResult.textContent = `you are subscribed!!!`;
 //   } else {
 //     subResult.textContent = `you are not subscribed!!!`;
-//   } 
+//   }
 // };
-
 
 // let age = 10;
 // let message = age >= 18 ? `you are an adult` : `you are a minor`;
 
 // console.log(message);
 
-
 // let time = 10;
 // let greeting = time < 12 ? "good morning" : "good afternoon";
 // console.log(greeting);
-
 
 // isStudent = false;
 // let message = isStudent ? "you are a student" : "you are not a student";
 // console.log(message);
 
-
 // let purchaseAmount = 100;
 // let discount = purchaseAmount >= 100 ? 10 : 0 ;
 // console.log(`your total is ₹${purchaseAmount - purchaseAmount * (discount/100)}`);
 
+// let day = 1;
+
+// switch(day) {
+
+//   case 1:
+//        console.log("Its is monday");
+//        break;
+//   case 2:
+//        console.log("Its is Tuesday");
+//        break;
+//   case 3:
+//        console.log("Its is wednesday");
+//        break;
+//   case 4:
+//        console.log("Its is Thursday");
+//        break;
+//   case 5:
+//        console.log("Its is Friday");
+//        break;
+//   case 6:
+//        console.log("Its is Sauturday");
+//        break;
+//   case 7:
+//        console.log("Its is Sunday");
+//        break;
+//   default:
+//     console.log("Incorrect Input");
+
+// }
+
+// let mark = 10;
+// let grade;
+
+// switch (true) {
+//   case mark >= 90:
+//     grade = "A";
+//     break;
+//   case mark >= 80:
+//     grade = "B";
+//     break;
+//   case mark >= 70:
+//     grade = "C";
+//     break;
+//   case mark >= 50:
+//     grade = "D";
+//     break;
+//   default:
+//     grade = "E";
+// }
+
+
+// console.log(grade);
+
+
+//              013456789             
+// let userName = "Siva Kumar";   // length = 10 index = length - 1 = 0 to 9 
+
+// userName.charAt(0);
+// console.log(userName.charAt(0));
+// userName.indexOf("s");
+// console.log(userName.indexOf("a"));
+// console.log(userName.lastIndexOf("a"));
+// console.log(userName.length);
+// userName = userName.toLowerCase();
+// console.log(userName);
+// userName = userName.toUpperCase();
+// console.log(userName);
+// userName = userName.repeat(5);
+// console.log(userName);
+
+
+
+// let userName = " Siva Kumar";  
+
+// let result = userName.startsWith(" ");
+
+// if(result) {
+//     console.log("Your username cant begin with ' ' ");
+// } else {
+//     console.log(userName);
+// }
+
+// console.log(result);
+// let userName = "Siva Kumar ";  
+
+// let result = userName.endsWith(" ");
+
+// if(result) {
+//     console.log("Your username cant ends with ' ' ");
+// } else {
+//     console.log(userName);
+// }
+
+// console.log(result);
+
+// let userName = "Siva$Kumar"; 
+
+// let result = userName.includes("$");
+
+// if(result) {
+//     console.log("Your username cant include with ' ' ");
+// } else {
+//     console.log(userName);
+// }
+
+// console.log(result);
+
+// let phoneNumber = "91-99940-30296";
+// phoneNumber = phoneNumber.replaceAll("-", "_");
+// console.log(phoneNumber);
+
+// let phoneNumber = "91-99940-30";
+// phoneNumber = phoneNumber.padStart(20, "0");
+// console.log(phoneNumber);
+
+// let phoneNumber = "91-99940-30";
+// phoneNumber = phoneNumber.padEnd(20, "0");
+// console.log(phoneNumber);
+
+// const fullName = "Ganesh Kumar";
+
+// let firstName = fullName.slice(0, 4);
+// let lastName = fullName.slice(5, 10);
+// let firstChar = fullName.slice(0, 1);
+// let lastChar = fullName.slice(-1);
+
+// let firstName = fullName.slice(0, fullName.indexOf(" "));
+// let lastName = fullName.slice(fullName.indexOf(" ") + 1);
+
+
+// console.log(firstName);
+// console.log(lastName);
+// console.log(firstChar);
+// console.log(lastChar);
+
+// email - dinesh123@gmail.com
+
+// Enter the Email 
+
+// submit 
+
+// your username is dinesh123
 
 
 

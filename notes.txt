@@ -227,6 +227,38 @@ ternary opertor - shortcut to if() and else() statements hepls to assign a Varia
 condition ? codeIfTrue : codeIfFalse;
 
 
+Switch - can be an effcient replacement to many else if statements 
+
+Using switch make s simple calculator 
+
+Enter a number 1 
+
+Enter a niber 2 
+
+select the operator + - / * 
+
+the answer is 
+
+
+String methods - allow us to manipiulate and work with text (strings)
+
+
+String slicing - creating a substring from a portion of another string 
+
+string.slice(start, end);
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
