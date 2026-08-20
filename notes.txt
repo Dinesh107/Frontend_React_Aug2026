@@ -247,6 +247,75 @@ String slicing - creating a substring from a portion of another string
 
 string.slice(start, end);
 
+Method Chaining - Calling one method after another in one continous line of code 
+
+logical Operator - used to combine or manipiulate boolean values (true or value)
+
+AND = &&
+OR = ||
+NOT = ! - change to true to false and false to true (fliping)
+
+
+= assignment operator 
+== comparison operator (compare if values are equal)
+=== strict equality (comapre if values & datatype are equal)
+!= inequality operator  - it will return true if tow values are not equal
+!== strict ineqaltiy operator - it will return true if both values and dataypes are not eqaul 
+
+
+Loops or control statement 
+
+were we start 
+
+we we stop - based on condition (condtion true means loop will run and if condition false means loop will stop)
+
+increase or decrease - incerment and decreamnt operator 
+
+types 
+
+while loop - entry control 
+do while loop  - exit control loop 
+for loop 
+forEach loop 
+Nexted Loops 
+
+
+******
+888888
+@@@@@@
+
+
+*
+8
+*
+8
+* 8 * 8 * 8
+
+
+x
+y
+x
+y
+x
+y
+
+
+
+
+*
+* * 
+* * *
+* * * *
+
+         *
+      *  *
+   *  *  *      
+*  *  *  * 
+
+
+
+
+
 
 
 

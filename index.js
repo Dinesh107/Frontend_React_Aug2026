@@ -361,4 +361,135 @@
 // your username is dinesh123
 
 
+//let username = window.prompt("Enter your username: ");
+
+// username = username.trim();
+// let letter = username.charAt(0);
+// letter = letter.toUpperCase();
+
+// let extraChars = username.slice(1);
+// extraChars = extraChars.toLowerCase();
+
+// username = letter + extraChars;
+
+// console.log(username);
+
+// username = username.trim().charAt(0).toUpperCase() + username.trim().slice(1).toLowerCase();
+
+// console.log(username);
+
+
+
+const temp = 200;
+
+// if(temp > 0) {
+//    console.log("The weather is good");
+// } else if(temp <= 30) {
+//     console.log("The weather is good");
+// } else {
+//      console.log("The weather is bad");
+// }
+// true 
+// 200  > 0    20 < 30 - true
+// if(temp > 0 && temp <= 30) {
+//    console.log("The weather is good");
+// } else {
+//      console.log("The weather is bad");
+// }
+
+//  false         false
+// if(temp <= 0 || temp > 30) {
+//    console.log("The weather is bad");
+// } else {
+//      console.log("The weather is good");
+// }
+
+
+
+// const isSunny = true;
+
+// if(!isSunny) {
+//     console.log("It is sunny");
+// } else {
+//     console.log("It is cloudy");
+// }
+
+//   TRUE
+// const PI = "3.14";
+
+// if(PI === "3.14") {
+//    console.log("That is PI");
+// } else {
+//  console.log("That is NOT PI");
+// }
+
+
+
+//TRUE
+// const PI = 3.14;
+
+// if(PI === 3.14) {
+//    console.log("That is PI");
+// } else {
+//  console.log("That is NOT PI");
+// }
+
+
+// FALSE
+// const PI = "3.14";
+
+// if(PI === 3.14) {
+//    console.log("That is PI");
+// } else {
+//  console.log("That is NOT PI");
+// }
+
+
+// FALSE
+// const PI = 3.14;
+
+// if(PI === "3.14") {
+//    console.log("That is PI");
+// } else {
+//  console.log("That is NOT PI");
+// }
+
+    // const PI = "3.14";
+    // if(PI !== 3.14) {
+    //    console.log("That is PI");
+    // } else {
+    //  console.log("That is NOT PI");
+    // }
+
+// let username = "Siva";
+
+
+// while(username === "") {
+//     console.log("You dont enter your name");
+// }
+
+// console.log(`hello ${username}`);
+
+// let i = 1;
+
+      //          false(false-stop) 
+     // 1st   2nd(true) 4th           
+// for(let i = 1; i <= 10; i++) {
+//     // 3rd - execute the code indise the curly braces 
+//      console.log(i);
+// }
+
+
+
+      //          false(false-stop) 
+     // 1st   2nd(true) 4th           
+// for(let i = 10; i > 0; i--) {
+//     // 3rd - execute the code indise the curly braces 
+//      console.log(i + "*****");
+//      console.log(i + "*****");
+// }
+
+
+
+
 
