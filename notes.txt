@@ -509,6 +509,37 @@ setTimeout(callback, delay)
   Introduce as part of ECMAScript 2015 update.
 
 
+synchronous - Executes line by line consecutively in a sequential manner.
+
+code that waits for an operation to compelete 
+
+
+asynchronous - allows multiple operations to be performed concurrently without waiting.
+
+Does not block the execution flow and allows the program to continue 
+
+
+I/O operation, network requests, fetching the data, etc 
+
+
+Handled with : Callback, Promises, Async/await 
+
+
+
+Error Objects - an object that is created to represent a problem occurs. 
+
+Errors occus often with user input or establishing a connection 
+
+
+try { } - encloses code that might be potenially cause an error 
+catch { } - catch and handle any thrown errors from try { }
+finnaly { } - (optional)
+ always execute, used moslty for clean up 
+ Ex. close files, close connection, release resoureses
+
+
+
+
 
 
 

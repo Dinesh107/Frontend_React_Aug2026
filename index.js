@@ -1583,17 +1583,74 @@
 // game.decreaseScore(10);
 // console.log(`the final scor is ${game.getRun()}runs`);
 
-
-
-
 // function sayHello() {
 //     window.alert("Hello");
 // }
 
-
 // // setTimeout(function(){window.alert("hello siva")}, 5000);
 // setTimeout(() => window.alert("hello siva kumar"), 2000);
 
-import { PI, getCircumference, getArea, getVolume } from './mathUtil.js';
+// import { PI, getArea, getCircumfernce, getVolume,  } from './mathUtil.js';
 
-console.log(PI);
+// console.log(PI);
+
+// const circumferenceRes = getCircumfernce(10);
+// console.log(circumferenceRes.toFixed(2));
+// const areaRes = getArea(10);
+// console.log(areaRes.toFixed(2));
+
+// const volumeRes = getVolume(10);
+// console.log(volumeRes.toFixed(2));
+
+// useEffect - react we will to handle async code
+// function func1(callback) {
+//   setTimeout(() => {
+//     console.log("Task 1");
+//     callback();
+//   }, 3000);
+// }
+
+// function func2() {
+//   console.log("task 2");
+//   console.log("task 3");
+//   console.log("task 4");
+// }
+
+// func1(func2);
+
+// try {
+//   console.log(x);
+//   // network errors
+//   // promise rejection
+//   // security errors
+// } catch (error) {
+//   console.error(error);
+// }
+// finally {
+//     // close files
+//     // close connection
+//     // relaeses the resoures
+//     console.log("This always executes");
+
+// }
+
+// console.log("You have reached the end of the code");
+
+try {
+  const dividend = window.prompt("Enter a divedend");
+  const divisor = window.prompt("Enter a divisor");
+
+  if (divisor == 0) {
+    throw new Error("You can not divide by zero");
+  } if(isNaN(dividend) || isNaN(divisor)) {
+     throw new Error("Values must be a number");
+  }
+
+  const result = dividend / divisor;
+
+  console.log(result);
+} catch (error) {
+  console.error(error);
+}
+
+console.log("we have reach the end");
