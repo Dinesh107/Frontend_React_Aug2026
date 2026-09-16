@@ -1234,7 +1234,6 @@
 // fish.swim();
 // eagle.fly();
 
-
 // class Rectangle {
 
 //   constructor(width, height) {
@@ -1257,7 +1256,6 @@
 //      }
 //   }
 
- 
 //    get width() {
 //     return this._width;
 //    }
@@ -1266,14 +1264,12 @@
 //    }
 
 //    get area() {
-      
-//    }
 
+//    }
 
 // }
 
 // const rectangle = new Rectangle(5, 11);
-
 
 // console.log(rectangle.height);
 // console.log(rectangle.width);
@@ -1284,7 +1280,6 @@
 //     this.lastName  = lastName;
 //     this.age = age;
 //   }
-
 
 //    set firstName(newFirstName) {
 //       if(typeof newFirstName === "string" && newFirstName.length > 0) {
@@ -1309,7 +1304,6 @@
 //     }
 //    }
 
-
 //   get firstName() {
 //     return this._firstName;
 //   }
@@ -1321,14 +1315,12 @@
 //   get fullName() {
 //     return this._firstName + " " + this._lastName;
 //   }
-   
+
 //   get age() {
 //     return this._age;
 //   }
 
-
 // }
-
 
 //  const person = new Person("siva", "kumar", 22);
 
@@ -1336,9 +1328,8 @@
 //  console.log(person.lastName);
 //  console.log(person.fullName);
 //  console.log(person.age);
- 
 
-// swap the values of two variables 
+// swap the values of two variables
 
 // let a = 1;
 // let b = 2;
@@ -1346,13 +1337,12 @@
 // console.log(a);
 // console.log(b);
 
-
 // [a,b] = [b,a];
 
 // console.log(a);
 // console.log(b);
 
-// swap 2 elements in an array 
+// swap 2 elements in an array
 
 // const colors = ["red", "green", "black", "white"];
 
@@ -1360,7 +1350,7 @@
 
 // console.log(colors);
 
-// assign array elements to variable 
+// assign array elements to variable
 
 // const colors = ["red", "green", "black", "white", "yellow"];
 
@@ -1368,7 +1358,7 @@
 
 // console.log(firstColor, secondColor, thirdColor, extraColors);
 
-// Extarct values from object 
+// Extarct values from object
 
 // const person1 = {
 //   firstName:"siva",
@@ -1385,7 +1375,6 @@
 
 // }
 
-
 // const {firstName, lastName, age, job} = person1;
 
 // console.log(firstName);
@@ -1393,30 +1382,218 @@
 // console.log(age);
 // console.log(job);
 
+// destrututre in function parameters
+
+// function displayPerson({firstName, lastName, age, job}) {
+//    console.log(`name: ${firstName} ${lastName}`);
+//    console.log(`age: ${age}`);
+//    console.log(`job: ${job}`);
+// }
+
+// const person1 = {
+//   firstName:"siva",
+//   lastName:"kumar",
+//   age: 22,
+//   job: "JS coder"
+
+// }
+// const person2 = {
+//   firstName:"ganes",
+//   lastName:"kumar",
+//   age: 21,
+//   job: "unemployed"
+
+// }
+
+// displayPerson(person2)
+
+// const person = {
+//   fullName: "Siva Kumar",
+//   age: 22,
+//   isStudent: true,
+//   hobbies: ["Football", "Singing", "cooking"],
+//   address: {
+//     street: "3rd cross, gandhi st",
+//     city: "chennai",
+//     state: "tamilnadu",
+//     country: "india",
+//   }
+// }
+
+// console.log(person.fullName);
+// console.log(person.age);
+// console.log(person.isStudent);
+// console.log(person.hobbies[2]);
+// console.log(person.address.street);
+// console.log(person.address.city);
+// console.log(person.address.state);
+// console.log(person.address.country);
+
+// for(const x in person.address) {
+//   console.log(person.address[x]);
+// }
+
+// class Person {
+//   constructor(name, age, ...address) {
+//     this.name = name;
+//     this.age = age;
+//     this.address = new Address(...address);
+//   }
+// }
+
+// class Address {
+
+//   constructor(street, city, state, country) {
+//     this.street = street;
+//     this.city = city;
+//     this.state = state;
+//     this.country = country;
+//   }
+// }
+
+// const person1 = new Person("siva", 22, "3rd gandhi st,",
+//                                        "chennai",
+//                                        "tamilnadu", "india");
+// const person2 = new Person("ganesh", 21, "4rd subash st,",
+//                                        "chennai",
+//                                        "karnataka", "india");
+// const person3 = new Person("ganesh", 20, "1rd kamraj st,",
+//                                        "madurai",
+//                                        "tamilnadu", "india");
+
+// console.log(person1.address.street);
+// console.log(person1.address.city);
+// console.log(person1.address.state);
+// console.log(person1.address.country);
+
+// console.log(person2.address.street);
+// console.log(person2.address.city);
+// console.log(person2.address.state);
+// console.log(person2.address.country);
+
+// console.log(person3.address.street);
+// console.log(person3.address.city);
+// console.log(person3.address.state);
+// console.log(person3.address.country);
+
+// const fruits = [{name: "apple", color: "red", calories: 85},
+//                 {name: "orange", color: "orange", calories: 90},
+//                 {name: "banana", color: "yellow", calories: 100},
+//                 {name: "cocunut", color: "white", calories: 105},
+//                 {name: "pineapple", color: "yellow", calories: 30}];
+
+// fruits.push({name: "grapes", color: "purple", calories: "22"})
+
+// console.log(fruits);
+
+// forEach
+// fruits.forEach(fruits => console.log(fruits.name));
+// fruits.forEach(fruits => console.log(fruits.colors));
+
+// // map
+
+// const fruitNames = fruits.map(fruit => fruit.name);
+
+// console.log(fruitNames);
+
+// // filter
+
+// const yellowFruits = fruits.filter(fruit => fruit.color === "yellow");
+
+// console.log(yellowFruits);
+
+// // reduce()
+
+// const maxFruit = fruits.reduce((accum, fruit) => fruit.calories > accum.calories ? fruit : accum);
+
+// console.log(maxFruit);
+
+// function outer() {
+
+//     let message = "hello";
+
+//     function inner() {
+//         console.log(message);
+//     }
+
+//     inner();
+
+// }
+
+// message = "goobye";
+
+// outer();
+
+// function createCounter(){
+//   let count = 0;
+
+//   function increment() {
+//     count++;
+//     console.log(`count incresed to ${count}`);
+//   }
+
+//   function getCount() {
+//     return count;
+//   }
+
+//   return {increment, getCount};
+// }
+
+// const counter = createCounter();
+
+// console.log(createCounter);
+
+// counter.increment();
+// counter.increment();
+// counter.increment();
+// counter.increment();
+// counter.increment();
+// counter.increment();
+// counter.increment();
+// counter.increment();
+// counter.increment();
+
+// console.log(`the current count is ${counter.getCount()}`);
+
+// function createGame() {
+//   let score = 0;
+
+//   function increaseScore(runs) {
+//     score += runs;
+//     console.log(`${runs} runs`);
+//   }
+
+//   function decreaseScore(runs) {
+//     score -= runs;
+//     console.log(`${runs} runs`);
+//   }
+
+//   function getRun() {
+//     return score;
+//   }
+
+//   return{increaseScore, decreaseScore, getRun}
+
+// }
+
+// const game = createGame();
+
+// game.increaseScore(30);
+// game.increaseScore(20);
+// game.decreaseScore(10);
+// console.log(`the final scor is ${game.getRun()}runs`);
 
 
-// destrututre in function parameters 
 
 
-function displayPerson({firstName, lastName, age, job}) {
-   console.log(`name: ${firstName} ${lastName}`);
-   console.log(`age: ${age}`);
-   console.log(`job: ${job}`);
-}
+// function sayHello() {
+//     window.alert("Hello");
+// }
 
-const person1 = {
-  firstName:"siva",
-  lastName:"kumar",
-  age: 22,
-  job: "JS coder"
 
-}
-const person2 = {
-  firstName:"ganes",
-  lastName:"kumar",
-  age: 21,
-  job: "unemployed"
+// // setTimeout(function(){window.alert("hello siva")}, 5000);
+// setTimeout(() => window.alert("hello siva kumar"), 2000);
 
-}
+import { PI, getCircumference, getArea, getVolume } from './mathUtil.js';
 
-displayPerson(person2)
+console.log(PI);

@@ -458,6 +458,70 @@ Destructing - extract values from arrays and objects, then asign them to varaibl
 [] - tp perform array destruting 
 {} - to perform object destruting 
 
+Nested objects - object inside of other object 
+allow you us to represent more complex data structure
+child object is enclosed with a parent object 
+
+
+
+Person{
+    Address{},
+    ContacInfo{},
+}
+
+ShoppingCart{
+    Mouse{
+
+    },
+    Earphones{
+
+    },
+    Keyboard {
+
+    }
+}
+
+
+Array of Objects - [{}, {}]
+
+
+
+closures in Javascript :- a function defined inside of another function.
+
+the inner function has access to the varibles and scopes of the outer function 
+
+allow for private varaibles and state maiantence 
+
+Used frequently in js framework - react, angular, vue, next js
+
+
+setTimeout(callback, delay)
+
+  Advanced Conepts in Javascript 
+
+
+  ES6 module - an external files that contains reusable code 
+  that can be imported into Javascript files .
+
+  write resuable code for many diiferent appps 
+  can contain vraibles, classes, functions,,,, and more
+
+  Introduce as part of ECMAScript 2015 update.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
