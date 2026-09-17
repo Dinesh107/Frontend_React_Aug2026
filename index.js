@@ -1636,21 +1636,128 @@
 
 // console.log("You have reached the end of the code");
 
-try {
-  const dividend = window.prompt("Enter a divedend");
-  const divisor = window.prompt("Enter a divisor");
+// try {
+//   const dividend = window.prompt("Enter a divedend");
+//   const divisor = window.prompt("Enter a divisor");
 
-  if (divisor == 0) {
-    throw new Error("You can not divide by zero");
-  } if(isNaN(dividend) || isNaN(divisor)) {
-     throw new Error("Values must be a number");
-  }
+//   if (divisor == 0) {
+//     throw new Error("You can not divide by zero");
+//   } if(isNaN(dividend) || isNaN(divisor)) {
+//      throw new Error("Values must be a number");
+//   }
 
-  const result = dividend / divisor;
+//   const result = dividend / divisor;
 
-  console.log(result);
-} catch (error) {
-  console.error(error);
+//   console.log(result);
+// } catch (error) {
+//   console.error(error);
+// }
+
+// console.log("we have reach the end");
+
+// function task1(callback) {
+//   setTimeout(() => {
+//     console.log("Task 1 completed");
+//     callback();
+//   }, 3000);
+// }
+
+// function task2(callback) {
+//   setTimeout(() => {
+//     console.log("Task 2 completed");
+//     callback();
+//   }, 2000);
+// }
+
+// function task3(callback) {
+//   setTimeout(() => {
+//     console.log("Task 3 completed");
+//     callback();
+//   }, 1000);
+// }
+// function task4(callback) {
+//   setTimeout(() => {
+//     console.log("Task 4 completed");
+//     callback();
+//   }, 4000);
+// }
+
+// task1(() => {
+//     task2(() => {
+//         task3(() => {
+//             task4(() => {
+//                console.log("all tasks are completed");
+//             })
+//         })
+//     })
+// })
+
+// task1();
+// task2();
+// task3();
+// task4();
+// console.log("all tasks are completed");
+
+function walkDog() {
+  return new Promise((resolve, reject) => {
+    setTimeout(() => {
+      const dogWalked = false;
+      if (dogWalked) {
+        resolve("walk dog completed");
+      } else {
+        reject("walk dog failed - 404");
+      }
+    }, 2000);
+  });
 }
 
-console.log("we have reach the end");
+function cleanTheKitchen() {
+  return new Promise((resolve, reject) => {
+    setTimeout(() => {
+      const kitchenCleaned = true;
+      if (kitchenCleaned) {
+        resolve("clean the kitchen completed");
+      } else {
+        reject("clean the kitchen failed");
+      }
+    }, 3500);
+  });
+}
+
+function takeTheTrashOut() {
+  return new Promise((resolve, reject) => {
+    setTimeout(() => {
+      const trashTakenOut = true;
+      if (trashTakenOut) {
+        resolve("take the trash out completed");
+      } else {
+        reject("take the trash out failed");
+      }
+    }, 1500);
+  });
+}
+
+walkDog()
+  .then((value) => {
+    console.log(value);
+    return cleanTheKitchen();
+  })
+  .then((value) => {
+    console.log(value);
+    return takeTheTrashOut();
+  })
+  .then((value) => {
+    console.log(value);
+    console.log("all tasks are completed");
+  })
+    .catch((error) => {
+    console.error(error);
+  });
+
+// walkDog(() => {
+//     cleanTheKitchen(() => {
+//         takeTheTrashOut(() => {
+//             console.log("all tasks are completed");
+//         })
+//     })
+// })

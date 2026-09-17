@@ -539,7 +539,34 @@ finnaly { } - (optional)
 
 
 
+Callback Hell - Situtaion in Javascript where callbacks are nested within other callbacks to the degree where the code is diffcult to read.
 
+old pattern to handle the asynshrounous function
+
+Pemoises + async/await to avoid the callback hell 
+
+
+
+Promises - an object that manages asynchronous operations. 
+
+wrap a Promises object around {asynchronous code}
+
+"I promise to retrun a value"
+
+PENDING -> RESOLVED or REJECTED
+
+
+new Promise((resolve, reject) => {asynchronous code})
+
+Do these tasks in order 
+
+brush up
+ walk the dog
+ take bath
+ clean the kitchen
+ take breakfast
+take the trash out 
+go to office
 
 
 
