@@ -1,0 +1,30 @@
+[
+  {
+    "name": "John Doe",
+    "age": 30,
+    "email": "john.doe@example.com",
+    "hobbies": ["reading", "traveling", "coding"]
+  },
+  {
+    "name": "Jane Smith",
+    "age": 25,
+    "email": "jane.smith@example.com",
+    "hobbies": ["painting", "cooking", "hiking"]
+  },
+  {
+    "name": "Bob Johnson",
+    "age": 35,
+    "email": "bob.johnson@example.com",
+    "hobbies": ["gaming", "swimming", "gardening"]
+  },
+  {
+    "name": "Alice Brown",
+    "age": 28,
+    "email": "alice.brown@example.com",
+    "hobbies": ["dancing", "singing", "writing"]
+  }
+]
+
+
+
+

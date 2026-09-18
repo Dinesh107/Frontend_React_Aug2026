@@ -1698,61 +1698,61 @@
 // task4();
 // console.log("all tasks are completed");
 
-function walkDog() {
-  return new Promise((resolve, reject) => {
-    setTimeout(() => {
-      const dogWalked = false;
-      if (dogWalked) {
-        resolve("walk dog completed");
-      } else {
-        reject("walk dog failed - 404");
-      }
-    }, 2000);
-  });
-}
+// function walkDog() {
+//   return new Promise((resolve, reject) => {
+//     setTimeout(() => {
+//       const dogWalked = false;
+//       if (dogWalked) {
+//         resolve("walk dog completed");
+//       } else {
+//         reject("walk dog failed - 404");
+//       }
+//     }, 2000);
+//   });
+// }
 
-function cleanTheKitchen() {
-  return new Promise((resolve, reject) => {
-    setTimeout(() => {
-      const kitchenCleaned = true;
-      if (kitchenCleaned) {
-        resolve("clean the kitchen completed");
-      } else {
-        reject("clean the kitchen failed");
-      }
-    }, 3500);
-  });
-}
+// function cleanTheKitchen() {
+//   return new Promise((resolve, reject) => {
+//     setTimeout(() => {
+//       const kitchenCleaned = true;
+//       if (kitchenCleaned) {
+//         resolve("clean the kitchen completed");
+//       } else {
+//         reject("clean the kitchen failed");
+//       }
+//     }, 3500);
+//   });
+// }
 
-function takeTheTrashOut() {
-  return new Promise((resolve, reject) => {
-    setTimeout(() => {
-      const trashTakenOut = true;
-      if (trashTakenOut) {
-        resolve("take the trash out completed");
-      } else {
-        reject("take the trash out failed");
-      }
-    }, 1500);
-  });
-}
+// function takeTheTrashOut() {
+//   return new Promise((resolve, reject) => {
+//     setTimeout(() => {
+//       const trashTakenOut = true;
+//       if (trashTakenOut) {
+//         resolve("take the trash out completed");
+//       } else {
+//         reject("take the trash out failed");
+//       }
+//     }, 1500);
+//   });
+// }
 
-walkDog()
-  .then((value) => {
-    console.log(value);
-    return cleanTheKitchen();
-  })
-  .then((value) => {
-    console.log(value);
-    return takeTheTrashOut();
-  })
-  .then((value) => {
-    console.log(value);
-    console.log("all tasks are completed");
-  })
-    .catch((error) => {
-    console.error(error);
-  });
+// walkDog()
+//   .then((value) => {
+//     console.log(value);
+//     return cleanTheKitchen();
+//   })
+//   .then((value) => {
+//     console.log(value);
+//     return takeTheTrashOut();
+//   })
+//   .then((value) => {
+//     console.log(value);
+//     console.log("all tasks are completed");
+//   })
+//     .catch((error) => {
+//     console.error(error);
+//   });
 
 // walkDog(() => {
 //     cleanTheKitchen(() => {
@@ -1761,3 +1761,71 @@ walkDog()
 //         })
 //     })
 // })
+
+// async function doTasks() {
+//   const walkDogResult = await walkDog();
+//   console.log(walkDogResult);
+//   const cleanTheKitchenResult = await cleanTheKitchen();
+//   console.log(cleanTheKitchenResult);
+//   const takeTheTrashOutResult = await takeTheTrashOut();
+//   console.log(takeTheTrashOutResult);
+//   console.log("all tasks are completed");
+// }
+
+// doTasks();
+
+
+// const name = ["John", "Jane", "Bob", "Alice"];
+
+// const person = {
+  
+//   "name": "John Doe",
+//   "age": 30,
+//   "email": "john.doe@example.com",
+//   "hobbies": ["reading", "traveling", "coding"]
+// }
+
+// const jsonString = JSON.stringify(name);
+// const personJsonString = JSON.stringify(person);
+
+// console.log(jsonString);
+// console.log(personJsonString);
+
+// const people = `[
+//   {
+//     "name": "John Doe",
+//     "age": 30,
+//     "email": "john.doe@example.com",
+//     "hobbies": ["reading", "traveling", "coding"]
+//   },
+//   {
+//     "name": "Jane Smith",
+//     "age": 25,
+//     "email": "jane.smith@example.com",
+//     "hobbies": ["painting", "cooking", "hiking"]
+//   },
+//   {
+//     "name": "Bob Johnson",
+//     "age": 35,
+//     "email": "bob.johnson@example.com",
+//     "hobbies": ["gaming", "swimming", "gardening"]
+//   },
+//   {
+//     "name": "Alice Brown",
+//     "age": 28,
+//     "email": "alice.brown@example.com",
+//     "hobbies": ["dancing", "singing", "writing"]
+//   }
+// ]`;
+
+// const paresedData = JSON.parse(people);
+
+// console.log(paresedData);
+
+
+
+
+
+// fetch("people.json")
+// .then(response => response.json())
+// .then(data => data.forEach(value => console.log(value.name)))

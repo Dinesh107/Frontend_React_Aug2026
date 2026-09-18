@@ -568,6 +568,43 @@ brush up
 take the trash out 
 go to office
 
+async / await - 
+
+async - makes funtion retrun a promise 
+awiat - maks a async function wait for a promise
+
+allow you to write a asynshrounous code in a synchronous manner 
+async does not have resolve or reject parameters 
+everything after awiat is placed in an event queue 
+
+brush up
+ walk the dog
+ take bath
+ clean the kitchen
+ take breakfast
+take the trash out 
+go to office
+
+JSON - - Javascript Object Notation 
+data-interchage format 
+
+used for exchange data between a server and a application 
+
+JSON files 
+{key : value} or [value1, value2, value3]
+
+
+JSON.stringify() - convert a js object to json string 
+JSON.parse()  - converts json string into js object 
+
+
+
+https://jsonplaceholder.typicode.com/users
+
+
+
+
+
 
 
 
